@@ -7,7 +7,8 @@ create and manage GitHub issues. Each lesson is a small, runnable step —
 so you learn the tools by using them, not by reading about them alone.
 
 **Start here for Lesson 1.** For the full roadmap and later modules, see
-the [Lessons overview](../docs/README.md).
+the [Lessons overview](../../README.md) and
+[tutorial roadmap](../../docs/README.md).
 
 ------------------------------------------------------------------------
 

@@ -7,7 +7,7 @@ Each lesson is a small, runnable step. Follow them in order — more
 lessons will be added as the series continues.
 
 For the full module roadmap, see the
-[tutorial overview](telegram-github-agent/docs/README.md).
+[tutorial overview](docs/README.md).
 
 ------------------------------------------------------------------------
 
@@ -19,13 +19,13 @@ For the full module roadmap, see the
 | --- | --- | --- |
 | 1 | [Create a Telegram Bot](telegram-github-agent/lesson-01-telegram-bot-creation/README.md) | [`lesson-01-telegram-bot-creation`](telegram-github-agent/lesson-01-telegram-bot-creation/) |
 
-<!-- Add new lessons below as they are published.
-| 2 | [Title](telegram-github-agent/lesson-02-.../README.md) | [`lesson-02-...`](telegram-github-agent/lesson-02-.../) |
--->
-
 ### Module 2 — GitHub Integration
 
-*Coming soon.*
+| Lesson | Title | Folder |
+| --- | --- | --- |
+| 02a | [GitHub PAT & Create an Issue](telegram-github-agent/lesson-02a-github-pat-and-create-issue/README.md) | [`lesson-02a-github-pat-and-create-issue`](telegram-github-agent/lesson-02a-github-pat-and-create-issue/) |
+| 02b | [Labels & Assignees](telegram-github-agent/lesson-02b-github-labels-and-assignees/README.md) | [`lesson-02b-github-labels-and-assignees`](telegram-github-agent/lesson-02b-github-labels-and-assignees/) |
+| 02c | Attach / include images | *Coming soon* |
 
 ### Module 3 — Build the Bot
 
@@ -46,6 +46,8 @@ For the full module roadmap, see the
 1. Open [Lesson 1](telegram-github-agent/lesson-01-telegram-bot-creation/README.md).
 2. Create your bot with **@BotFather**.
 3. Run the echo bot locally and inspect Telegram updates.
+4. Continue to [Lesson 02a](telegram-github-agent/lesson-02a-github-pat-and-create-issue/README.md) for GitHub REST + PAT.
+5. Then [Lesson 02b](telegram-github-agent/lesson-02b-github-labels-and-assignees/README.md) for labels and assignees.
 
 ------------------------------------------------------------------------
 
@@ -54,12 +56,12 @@ For the full module roadmap, see the
 ``` text
 Telegram Bot/
 ├── README.md                          ← you are here
+├── .env                               ← secrets (not committed)
+├── .env.example
+├── docs/
+│   └── README.md                      ← full tutorial roadmap
 └── telegram-github-agent/
-    ├── docs/
-    │   └── README.md                  ← full tutorial roadmap
-    └── lesson-01-telegram-bot-creation/
-        ├── README.md
-        ├── app.py
-        ├── .env                       ← not committed
-        └── requirements.txt
+    ├── lesson-01-telegram-bot-creation/
+    ├── lesson-02a-github-pat-and-create-issue/
+    └── lesson-02b-github-labels-and-assignees/
 ```
