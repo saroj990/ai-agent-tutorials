@@ -16,7 +16,7 @@ Still **GitHub-only** — Telegram wiring comes in Module 3.
 | --- | --- |
 | [02a — PAT + create issue](../lesson-02a-github-pat-and-create-issue/README.md) | Done |
 | **02b — Labels + assignees** (this lesson) | You are here |
-| 02c — Attach / include images | Coming next |
+| [02c — Issue images](../lesson-02c-github-issue-images/README.md) | Next |
 
 ------------------------------------------------------------------------
 
@@ -211,8 +211,8 @@ You're done with Lesson 02b when:
 
 ## What's next?
 
-**Lesson 02c** covers including an **image** on an issue (markdown image
-URL and/or upload patterns).
+**[Lesson 02c](../lesson-02c-github-issue-images/README.md)** covers
+including an **image** on an issue (upload via Contents API + markdown).
 
 Then **Module 3** wires this client into Telegram commands like
 `/newissue`.

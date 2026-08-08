@@ -14,7 +14,7 @@ Module 3 will connect the two.
 | --- | --- |
 | **02a — PAT + create issue** (this lesson) | You are here |
 | [02b — Labels + assignees](../lesson-02b-github-labels-and-assignees/README.md) | Next |
-| 02c — Attach / include images | Later |
+| [02c — Issue images](../lesson-02c-github-issue-images/README.md) | Later |
 
 ------------------------------------------------------------------------
 
