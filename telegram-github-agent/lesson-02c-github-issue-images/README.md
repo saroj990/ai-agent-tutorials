@@ -159,8 +159,17 @@ Created issue #17
 URL: https://github.com/your-username/your-repo-name/issues/17
 ```
 
-Open the issue URL — the demo image should render in the body. You
-should also see a commit that added `tutorial-assets/lesson-02c-demo.png`.
+Open the issue URL — the demo image should render in the body as a
+**wide teal banner** (about 480×200). You should also see a commit that
+added `tutorial-assets/lesson-02c-demo.png`.
+
+If the image is missing or broken:
+
+- Confirm you opened the **issue** URL, not only the file in the tree
+- Hard-refresh the page
+- If the repo is **private**, `raw.githubusercontent.com` links sometimes
+  fail to render for anonymous image fetches — stay logged into GitHub,
+  or use a public sample repo for this lesson
 
 ------------------------------------------------------------------------
 
@@ -212,10 +221,9 @@ You're done with Lesson 02c (and Module 2) when:
 
 ## What's next?
 
-**Module 2 complete.** Next is **Module 3 — Build the Bot**:
+**Module 2 complete.** Continue with
+**[Lesson 03a — `/newissue` + conversation](../lesson-03a-newissue-conversation/README.md)**:
 
-- `/newissue`, `/bug`, `/feature`, `/todo`
-- Conversation state in Telegram
-- Call this GitHub client from bot handlers (including photos)
-
-That is where Telegram + GitHub finally meet.
+- Telegram `ConversationHandler`
+- Call `create_issue` from the bot
+- Reply with the GitHub issue URL

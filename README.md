@@ -29,7 +29,11 @@ For the full module roadmap, see the
 
 ### Module 3 — Build the Bot
 
-*Coming soon.*
+| Lesson | Title | Folder |
+| --- | --- | --- |
+| 03a | [`/newissue` + Conversation](telegram-github-agent/lesson-03a-newissue-conversation/README.md) | [`lesson-03a-newissue-conversation`](telegram-github-agent/lesson-03a-newissue-conversation/) |
+| 03b | `/bug`, `/feature`, `/todo` | *Coming soon* |
+| 03c | Photos from Telegram | *Coming soon* |
 
 ### Module 4 — AI Agent
 
@@ -49,6 +53,7 @@ For the full module roadmap, see the
 4. Continue to [Lesson 02a](telegram-github-agent/lesson-02a-github-pat-and-create-issue/README.md) for GitHub REST + PAT.
 5. Then [Lesson 02b](telegram-github-agent/lesson-02b-github-labels-and-assignees/README.md) for labels and assignees.
 6. Then [Lesson 02c](telegram-github-agent/lesson-02c-github-issue-images/README.md) for embedding images on issues.
+7. Then [Lesson 03a](telegram-github-agent/lesson-03a-newissue-conversation/README.md) to create issues from Telegram.
 
 ------------------------------------------------------------------------
 
@@ -65,5 +70,6 @@ Telegram Bot/
     ├── lesson-01-telegram-bot-creation/
     ├── lesson-02a-github-pat-and-create-issue/
     ├── lesson-02b-github-labels-and-assignees/
-    └── lesson-02c-github-issue-images/
+    ├── lesson-02c-github-issue-images/
+    └── lesson-03a-newissue-conversation/
 ```
