@@ -32,8 +32,8 @@ For the full module roadmap, see the
 | Lesson | Title | Folder |
 | --- | --- | --- |
 | 03a | [`/newissue` + Conversation](telegram-github-agent/lesson-03a-newissue-conversation/README.md) | [`lesson-03a-newissue-conversation`](telegram-github-agent/lesson-03a-newissue-conversation/) |
-| 03b | `/bug`, `/feature`, `/todo` | *Coming soon* |
-| 03c | Photos from Telegram | *Coming soon* |
+| 03b | [`/bug`, `/feature`, `/todo`](telegram-github-agent/lesson-03b-issue-shortcuts/README.md) | [`lesson-03b-issue-shortcuts`](telegram-github-agent/lesson-03b-issue-shortcuts/) |
+| 03c | [Photos from Telegram](telegram-github-agent/lesson-03c-telegram-photos/README.md) | [`lesson-03c-telegram-photos`](telegram-github-agent/lesson-03c-telegram-photos/) |
 
 ### Module 4 — AI Agent
 
@@ -50,10 +50,8 @@ For the full module roadmap, see the
 1. Open [Lesson 1](telegram-github-agent/lesson-01-telegram-bot-creation/README.md).
 2. Create your bot with **@BotFather**.
 3. Run the echo bot locally and inspect Telegram updates.
-4. Continue to [Lesson 02a](telegram-github-agent/lesson-02a-github-pat-and-create-issue/README.md) for GitHub REST + PAT.
-5. Then [Lesson 02b](telegram-github-agent/lesson-02b-github-labels-and-assignees/README.md) for labels and assignees.
-6. Then [Lesson 02c](telegram-github-agent/lesson-02c-github-issue-images/README.md) for embedding images on issues.
-7. Then [Lesson 03a](telegram-github-agent/lesson-03a-newissue-conversation/README.md) to create issues from Telegram.
+4. Continue through Module 2 (GitHub REST), then Module 3 (bot commands).
+5. Latest: [03b shortcuts](telegram-github-agent/lesson-03b-issue-shortcuts/README.md) and [03c photos](telegram-github-agent/lesson-03c-telegram-photos/README.md).
 
 ------------------------------------------------------------------------
 
@@ -61,15 +59,16 @@ For the full module roadmap, see the
 
 ``` text
 Telegram Bot/
-├── README.md                          ← you are here
-├── .env                               ← secrets (not committed)
+├── README.md
+├── .env
 ├── .env.example
-├── docs/
-│   └── README.md                      ← full tutorial roadmap
+├── docs/README.md
 └── telegram-github-agent/
     ├── lesson-01-telegram-bot-creation/
     ├── lesson-02a-github-pat-and-create-issue/
     ├── lesson-02b-github-labels-and-assignees/
     ├── lesson-02c-github-issue-images/
-    └── lesson-03a-newissue-conversation/
+    ├── lesson-03a-newissue-conversation/
+    ├── lesson-03b-issue-shortcuts/
+    └── lesson-03c-telegram-photos/
 ```

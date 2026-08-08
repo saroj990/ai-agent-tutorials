@@ -10,8 +10,8 @@ title → body, then creates a real GitHub issue and replies with the URL.
 | Module 3 path | Status |
 | --- | --- |
 | **03a — `/newissue` + conversation** (this lesson) | You are here |
-| 03b — `/bug`, `/feature`, `/todo` shortcuts | Coming next |
-| 03c — Photos / images from Telegram | Later |
+| [03b — shortcuts + labels](../lesson-03b-issue-shortcuts/README.md) | Next |
+| [03c — Telegram photos](../lesson-03c-telegram-photos/README.md) | Next |
 
 ------------------------------------------------------------------------
 
@@ -193,11 +193,8 @@ You're done with Lesson 03a when:
 
 ## What's next?
 
-**Lesson 03b** adds shortcut commands:
+**[Lesson 03b](../lesson-03b-issue-shortcuts/README.md)** adds shortcut
+commands with auto-labels (`/bug`, `/feature`, `/todo`).
 
-- `/bug` → same flow, auto-label `bug`
-- `/feature` → label `enhancement`
-- `/todo` → label `todo`
-
-**Lesson 03c** accepts a **photo** from Telegram and embeds it on the
-issue (using Module 2’s Contents upload pattern).
+**[Lesson 03c](../lesson-03c-telegram-photos/README.md)** accepts a
+**photo** from Telegram and embeds it on the issue.
